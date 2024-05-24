@@ -1,0 +1,91 @@
+.main-div-container{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:500px;
+    max-width: 400px;
+    padding: 35px;
+}
+
+.login-form{
+    color:#333;
+    width:100%;
+    padding: 35px;
+    background-color:#ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.login-form h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.email-based-input label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.email-based-input input{
+    width: 90%;
+    padding: 8px;
+    border:1px solid #646567;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.password-based-input label{ 
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.password-based-input input{
+    width:90%;
+    box-sizing: border-box;
+    padding: 8px;
+    border:1px solid #636669;
+    border-radius: 4px;
+}
+
+.button-section button{
+    margin-top: 30px;
+    width: 25%;
+    padding:8px 8px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1274e4;
+    color:white;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+.message-section{
+    display: block;
+}
+
+.message-section p{
+    font-size: smaller;
+    color: black;
+}
+
+.message-section a{
+    text-decoration: none;
+    color: #1274e4;
+} 

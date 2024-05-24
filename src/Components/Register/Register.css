@@ -1,0 +1,119 @@
+.register-main-div{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.register-form{
+    color: #333;
+    align-items: center;
+    padding: 35px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    width:30%;
+}
+
+.register-form h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.name-section{
+    margin: 5px;
+}
+
+.name-section label{
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.name-section input{
+    width:90%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #636669;
+    border-radius: 5px;
+}
+
+.lname-section{
+    margin: 5px;
+}
+
+.lname-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.lname-section input{
+    width:90%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #636669;
+    border-radius: 5px;
+}
+
+.email-section{
+    margin: 5px;
+}
+.email-section label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.email-section input{
+    width:90%;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid #636669;
+    border-radius: 5px;
+}
+
+.password-section{
+    margin: 5px;
+}
+.password-section label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.password-section input{
+    width:90%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #636669;
+    border-radius: 5px;
+}
+
+.button-div-section button{
+    margin-top: 20px;
+    width: 25%;
+    padding:8px 8px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1274e4;
+    color:white;
+    font-size: 15px;
+}
+
+.message-div-section p{
+   font-size: smaller;
+}
+
+.message-div-section a{
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#0056b3
+}
